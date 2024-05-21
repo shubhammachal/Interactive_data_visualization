@@ -56,8 +56,10 @@ st.plotly_chart(fig_weight)
 fig_scatter = px.scatter(filtered_data, x="Volume", y="Weight", color="Building", trendline="ols", title="Volume vs Weight")
 st.plotly_chart(fig_scatter)
 
-# Visualization 4: Line chart of Waste Generation by Time by Building
+# Visualization 5: Line chart of Waste Generation by Time by Building
 fig_trend = px.line(filtered_data, x="Date", y="Volume", color="Building", title="Trend of Waste Generation by Time by Building")
 st.plotly_chart(fig_trend)
+
+
 
 
