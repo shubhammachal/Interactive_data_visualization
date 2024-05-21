@@ -41,6 +41,7 @@ st.title("Waste Data Visualization")
 
 # Visualization 1: Total Volume by Building
 fig_volume = px.bar(filtered_data, x="Building", y="Volume", color="Building", title="Total Volume by Building")
+
 st.plotly_chart(fig_volume)
 
 
